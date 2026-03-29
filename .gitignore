@@ -1,0 +1,23 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Security - NEVER commit
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pub
+pubspec.lock

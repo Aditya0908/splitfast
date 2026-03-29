@@ -1,0 +1,51 @@
+name: splitfast
+description: Zero-friction, item-level expense splitting app. Single payer, no backend.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Local Storage
+  shared_preferences: ^2.3.4
+
+  # OCR & AI
+  google_mlkit_text_recognition: ^0.14.0
+  google_generative_ai: ^0.4.7
+
+  # Contacts & Permissions
+  flutter_contacts: ^1.1.9+2
+  permission_handler: ^11.3.1
+
+  # Sharing & Links
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+
+  # Security
+  flutter_dotenv: ^5.2.1
+
+  # Utilities
+  uuid: ^4.5.1
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  riverpod_generator: ^2.6.2
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
